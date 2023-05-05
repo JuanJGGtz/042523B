@@ -1,0 +1,21 @@
+{
+  "name": "042523b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":  "nodemon index.js",
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanJGGtz/042523B.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanJGGtz/042523B/issues"
+  },
+  "homepage": "https://github.com/JuanJGGtz/042523B#readme"
+}
