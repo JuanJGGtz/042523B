@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":  "nodemon index.js",
+    "dev": "nodemon index.js",
     "test": "node index.js"
   },
   "repository": {
@@ -17,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/JuanJGGtz/042523B/issues"
   },
-  "homepage": "https://github.com/JuanJGGtz/042523B#readme"
+  "homepage": "https://github.com/JuanJGGtz/042523B#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.1.0"
+  }
 }
