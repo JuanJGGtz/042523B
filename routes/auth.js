@@ -24,7 +24,6 @@ router.post('/new',
 router.post(
     '/',
     [
-        check('name', 'El nombre es incorrecto').not().isEmpty(),
         check('email', 'El Email es incorrecto').isEmail(),
         check('password', 'La contraseña es incorrecta').isLength({ min: 6 }),
         fieldValidator
