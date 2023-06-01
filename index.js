@@ -32,6 +32,11 @@ app.use('/api/auth', require('./routes/auth'));
 //Eventos
 app.use('/api/events', require('./routes/events'));
 
+//AGREGAR PARA SOLUCIONAR PROBLEMA DE DESPLIEGUE EN EL SERVIDOR "Cannot GET /auth/login"
+app.get('*', (req, res) => {
+    res.sendFile(__dirname + '/public/index.html');
+});
+
 //Escuchar peticiones
 app.listen(process.env.PORT, () => {
     console.log('Servidor corriendo en el puerto ' + process.env.PORT);
